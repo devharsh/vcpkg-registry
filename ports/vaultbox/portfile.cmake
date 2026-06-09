@@ -22,4 +22,4 @@ vcpkg_install_copyright(FILE_LIST "${SOURCE_PATH}/LICENSE")
 
 # Optional usage hint shown after install:
 file(WRITE "${CURRENT_PACKAGES_DIR}/share/vaultbox/usage"
-"vaultbox is header-only and depends on cryptopp.\n#include <vaultbox/lib.h>\nLink Crypto++: find_package(cryptopp CONFIG REQUIRED); target_link_libraries(main PRIVATE cryptopp::cryptopp)\n")
+"vaultbox is header-only and depends on cryptopp.\n#include <vaultbox/lib.hpp>\nLink Crypto++: find_package(cryptopp CONFIG REQUIRED); target_link_libraries(main PRIVATE cryptopp::cryptopp)\n")
