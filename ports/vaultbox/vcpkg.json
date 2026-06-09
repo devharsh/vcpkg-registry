@@ -1,0 +1,20 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "vaultbox",
+  "version": "1.0.0",
+  "description": "Header-only C++ library for forward-secure, replicated, randomized, rate-less storage and transmission, built on Crypto++.",
+  "homepage": "https://github.com/devharsh/VaultBox",
+  "license": "GPL-3.0-or-later",
+  "supports": "!uwp",
+  "dependencies": [
+    "cryptopp",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
